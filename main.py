@@ -2,7 +2,7 @@ from crewai import Agent, Task, Crew
 from gemini_llm import GeminiLLM
 
 # Create Gemini instance
-llm = GeminiLLM(api_key="AIzaSyAs-YSD2jDVw3sopRYyDlWl3PNbqhnW6eE")
+llm = GeminiLLM(api_key="API")
 
 # Define agents
 researcher = Agent(
